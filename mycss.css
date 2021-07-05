@@ -1,0 +1,123 @@
+*{
+
+	margin: 0;padding: 0;box-sizing: border-box;
+	font-family: 'Josefin Sans', sans-serif;
+}
+#backgroundAnimation{
+	width:100%;height: 100vh;
+	animation: background_animation 14s infinite linear;
+	
+    background-size: cover;
+}
+@keyframes background_animation{
+
+        0%{ background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url('../images/Taj-Mahal-Agra-India.jpg');}
+     	16.67% {background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url('../images/statue-Christ-the-Redeemer-Rio-de-Janeiro.jpg');}
+     	33.34%{background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url('../images/Machu-Picchu.jpg');}
+     	50%{background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url('../images/Khaznah-Petra-Jordan.jpg');}
+     	66.68%{background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url('../images/El-Castillo-pyramid-plaza-Toltec-state-Yucatan.jpg');}
+     	83.3%{background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url('../images/Colosseum-Rome-Italy.jpg');}
+        100%{background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url('../images/Great-Wall-of-China-Beijing.jpg');}
+        
+ 
+}
+nav{
+	width: 100%;height: 15vh;
+	background-color:rgb(0,0,0,0.2);
+	color: white;display: flex;justify-content: space-between;
+	align-items: center;text-transform: uppercase;
+	}
+	nav .logo{
+		width: 30%;text-align: center;
+	}
+	nav .menu{
+		width: 40%;
+		display:flex;justify-content: space-around;
+	}
+	nav .menu a{
+		width: 25%;
+		text-decoration: none;color: white;
+		font-weight: bolder;
+	}
+     #activepage{
+		color:  #00ffff;
+	}
+	main{
+		width:100%;
+		height: 85vh;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+	}
+	section h3{
+		font-size: 55px; font-weight: 500;letter-spacing: 3px;
+		text-shadow: 2px 2px 2px black;
+	}
+    section h1{
+		margin: 30px 0 20px 0;
+		font-size: 60px;
+		font-weight: 500;
+		text-shadow: 2px 2px 5px black;
+		text-transform: uppercase;
+	}
+	section p{
+    	font-size: 25px;
+    	word-spacing: 2px;
+    	margin-bottom: 25px;
+    	text-shadow: 1px 2px 1px black;
+    }
+    section a{
+     	padding:12px 30px;
+     	border-radius: 4px;
+     	outline: none;
+     	text-transform: uppercase;
+     	font-size: 13px;
+     	font-weight: 500;
+     	text-decoration: none;
+     	letter-spacing: 1px;
+     	transition: all .5s ease;
+     }
+
+     section .btnone{
+     	/*background-color: #00b894;*/
+     	background-color:#00b894;
+     	color:#000;
+     	
+     }
+      .btnone:hover{
+      	background-color: #fff;
+     	color:#000;
+     	
+      }
+
+     section .btntwo{
+     	background-color: #00b894;
+     	color: #000;
+     }
+     .btntwo:hover{
+     	background-color: #fff;
+     	color:#000;
+     	
+
+     }
+     
+     .change_content:after{
+     	content: '';
+     	animation: changetext 14s infinite linear;
+     	color: #00b894;
+     }
+
+     @keyframes changetext{
+     	0%{content: "Taj Mahal Agra India";}
+     	16.67% {content:"Christ the Redeemer";}
+     	33.34%{content: "Machu-Picchu";}
+     	50%{content:"Petra-Jordan";}
+     	66.68%{content:"El Castillo pyramid plaza Toltec state Yucatan ";}
+     	83.3%{content:"Colosseum Rome Italy";}
+        100%{content: "Great Wall of China Beijing";}
+        
+ }
+
+
+     
