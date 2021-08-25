@@ -2,7 +2,7 @@
 - 👀 I’m interested in HTML ,CSS & Javascript
 - 🌱 I’m currently learning HTML, CSS & Javascript
 - 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...github.com/Vinayak
+- 📫 How to reach me github.com/vinayakmandare
 
 <!---
 Vinayakmandare/Vinayakmandare is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
