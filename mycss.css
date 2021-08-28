@@ -5,7 +5,7 @@
 }
 #backgroundAnimation{
 	width:50%;height: 50vh;
-	animation: background_animation 5s infinite linear;
+	animation: background_animation 14s infinite linear;
 	
     background-size: cover;
 }
