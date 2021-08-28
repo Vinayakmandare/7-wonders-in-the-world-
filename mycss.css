@@ -11,7 +11,7 @@
 }
 @keyframes background_animation{
 
-        0%{ background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url('Taj-Mahal-Agra-India.jpg');}
+        0%{ background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url('../Taj-Mahal-Agra-India.jpg');}
      	16.67% {background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url('../images/statue-Christ-the-Redeemer-Rio-de-Janeiro.jpg');}
      	33.34%{background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url('../images/Machu-Picchu.jpg');}
      	50%{background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url('../images/Khaznah-Petra-Jordan.jpg');}
