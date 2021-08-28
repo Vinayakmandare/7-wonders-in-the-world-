@@ -1,0 +1,13 @@
+body{
+
+	height: 100vh;
+	background: linear-gradient(to right,#333399,#ff00cc);
+    text-align: center;
+
+}
+.logo img{
+	float: left;
+	width: 100px;
+	height:auto; 
+
+}

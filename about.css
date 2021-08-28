@@ -1,0 +1,14 @@
+ body{
+
+    height: 200vh;
+    background: linear-gradient(to right,#333399,#ff00cc);
+    text-align: center;
+
+
+}
+.logo img{
+	float: left;
+	width: 200px;
+	height:auto; 
+
+}
