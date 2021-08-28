@@ -101,6 +101,16 @@ nav{
      	
 
      }
+ section .btnthree{
+     	background-color: #00b894;
+     	color: #000;
+     }
+     .btntwo:hover{
+     	background-color: #fff;
+     	color:#000;
+     	
+
+     }
      
      .change_content:after{
      	content: '';
